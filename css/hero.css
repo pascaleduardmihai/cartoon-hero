@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 30px; /* leading la text */
+}
+
+header{
+    background-color: orange;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+h1, h2{
+    font-family: 'Play', sans-serif;
+}
+
+header h1{
+    color: white;
+    font-size: 50px;
+    
+
+}
+
+header img{
+    border-radius: 80px;
+    width: 150px;
+    border: 10px solid black;
+}
+
+main{
+    max-width: 800px;
+    /* shortcut for centering items below – 1st value for top/bottom and 2nd value for left/right */
+    margin: 0 auto;
+    /* up right down left – for margin padding */
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 35px;
+    color: orangered;
+    margin: 40px 0 10px;
+}
+
+a{
+    color: orangered;
+}
+
+/* cand treci cu mouse peste sa isi schimbe culoarea */
+a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+footer p{
+    margin: 0%;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+
+p.caption{
+    color: gray;
+    font-style: italic;
+    margin-top: 0;
+}
