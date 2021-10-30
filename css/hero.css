@@ -78,6 +78,7 @@ footer a:hover{
     background-color: transparent;
 }
 
+/* element.clasa unde clasa e definita in html ex: <p class="caption>" */
 p.caption{
     color: gray;
     font-style: italic;
